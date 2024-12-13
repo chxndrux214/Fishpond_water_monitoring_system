@@ -8,6 +8,7 @@ The **Fish Pond Water Monitoring System** is an IoT-based solution designed to m
 - **IoT Integration:** Uses ESP8266 board for seamless connectivity.
 - **Data Display:** Real-time data is displayed on an LCD for local monitoring.
 - **Cloud Integration:** Utilizes ThingSpeak for remote data visualization.
+- **Alert Mechanism:** Sends alert messages through a web application when parameters cross critical thresholds.
 - **Cost-Effective:** Provides an affordable and scalable solution for fish pond management.
 
 ## Components Used
@@ -32,7 +33,8 @@ The **Fish Pond Water Monitoring System** is an IoT-based solution designed to m
 ## System Architecture
 1. **Sensors:** Collect data from the fish pond.
 2. **Microcontroller:** ESP8266 processes the data and uploads it to ThingSpeak.
-3. **Data Visualization:** Real-time data is displayed on an LCD and ThingSpeak dashboard.
+3. **Alert Mechanism:** Sends web application alerts for critical parameter thresholds.
+4. **Data Visualization:** Real-time data is displayed on an LCD and ThingSpeak dashboard.
 
 ## How to Use
 ### Prerequisites
@@ -64,7 +66,6 @@ The **Fish Pond Water Monitoring System** is an IoT-based solution designed to m
 - Smart agriculture
 
 ## Future Enhancements
-- Add alert mechanisms via SMS or email when parameters cross critical thresholds.
 - Develop a mobile application for enhanced user interaction.
 - **AI Predictions:** Incorporate machine learning algorithms to predict water quality trends and provide proactive recommendations for pond management.
 
